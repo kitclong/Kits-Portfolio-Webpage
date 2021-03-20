@@ -7,7 +7,7 @@
   1. Portfolio webpage creation/design.
   3. Create a user story scenerio.
   4. Outline and wireframe a page to create.
-  ~~5. Prototype page.~~
+  5. ~~Prototype page.~~
   6. Fullfill information criteria for the page (resume type items on the individual).
   7. Link items within the page.
   8. Create > stylize > test > debug > edit > (make responsive: ongoing) > revisit.
