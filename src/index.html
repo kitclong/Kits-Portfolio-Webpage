@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfolioKL</title>
+<!-- Link bootstrap css, fonts, style.css, CDN links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile-style.css">
+</head>
+
+<body>
+    <header>
+<!-- ============================================================Nav Area============================================================ -->
+
+<!-- Added bootstrap nav bar. Add icon image to anchor tag -->
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Kit Long  { }</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+<!-- Create div to move nav items to right away from title/logo item -->
+                  <div class="navbar-links" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#anchor-home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anchor-about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anchor-work">Experience</a>
+                        </li>
+                        <!-- Add in when the section is figured out
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Interests</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#anchor-contact">Contact</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+<!-- ============================================================End Nav Area============================================================ -->
+
+<!-- ============================================================Hero Area============================================================ -->
+
+<!-- Create splash/hero type of title with text, using bootstrap col grid system (12 col). Added button under for nav to subject matter.-->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h6>PROSPECTIVE</h6>
+                    <h1>WEB-DEVELOPER</h1>
+                    <p>
+                        *Learning Full-Stack Web-Development* <br> HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, Responsive Design, Heroku, Git, User Authentication, React.js, MySQL, MongoDB
+                    </p>
+                    <!-- Add link to resume or resume page when it is available. specify sizing of the button in line -->
+                    <a class="btn btn-light px-5 py-2" href="resume.html" >Resume</a>
+                </div>
+<!-- Add image and height to image -->
+                <div class="col-md-5 col-sm-12 h-25">
+                   <a id="anchor-home" >
+                        <img src="../assets/header-img.png" alt="PortfolioImage"/>
+                   </a> 
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- ============================================================End Hero Area============================================================ -->
+    
+<!--============================================================About Me Area============================================================ -->
+
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="phone">
+                            <!-- Added anchor id for nav item -->
+                            <a id="anchor-about"><img src="../assets/phone.img.jpg" alt="Phone"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel text-left">
+                            <h1 class="text-dark">Let me introduce myself</h1>
+                            <p class="pt-4">
+                                /*   Greetings! My name is Kit and I'm relatively new to web development. I'm excited to learn as much as I possibly can! I am currently enrolled in a UNH bootcamp, in conjuction with Trilogy Education, that is both challenging and creatively intriguing. 
+                                As I futher delve into the intricacies of the web development process, I hope to grasp a fundamental and consistent enough understanding to become a future web developer.
+                                Although challenging, I am in a constant state of progression, trying to fathom as many aspects I can. Please check out some work below!   */ 
+                            </p>
+                            <p class="pt-4">
+                                /*   Additional background, I have been working in information technology as a PC and network technician; working with both hardware and software integrations of PCs, server/network components, A/V systems, and client resolutions.
+                                Before that, I worked as a digital marketing associate; assisting in SEO campaigns, data analytics, data aggregation, sales platform implementations, and client scope expansions.   */
+                            </p>
+                            <!-- This is forwrd slash dont move this pre is using html formats -->
+                            <pre>   Kit = {
+            "degree1": "International Business",
+            "degree2": "Computer Information Systems",
+         }
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--============================================================End about me Area============================================================ -->    
+
+<!--============================================================Work Area============================================================ -->
+
+<!-- Create Experience Section and Cards to display -->
+        <section class="section-2">
+            <div class="container text-center">
+                <h1 class="text-dark">Work</h1>
+                <p class="text-secondary">Current, Previous, & Ongoing Projects</p>
+            </div>
+<!--Create cards for showcasing work. Inline block shadow-->
+<!-- Added .border-radius class and padding p-4 to images to create an image crop -->
+            <div class="work row">
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card ml-auto d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../assets/code-img.jpg" alt="Work" class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-dark">Coding Projects</h3>
+                            <p class="card-text">Exciting coding endeavor! Password generator, Day planner, Weather dashboard, Note taker, Employee management system, E-Commerce back end, Professional webpage, Tech blog, Fitness tracker, User directory and more!</p>
+                            <a href="../src/codingP.html" class="btn btn-light text-decoration-none">More Info</a>
+                            <p class="text-black-50">Projects TBA</p>
+                        </div>
+                    </div>
+                    
+                </div>
+<!-- These cards will change as more projects are available to showcase. Inline block shadow -->
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card ml-auto d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <a id="anchor-work"><img src="../assets/keyboard-img.jpg" alt="Work" class="img-fluid border-radius p-4"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-dark">Personal Projects</h3>
+                            <p class="card-text">Bask in the cathartic experience of tinkering! Mechanically oriented projects that involve building, designing, repairing, and improving. From mechanical keyboards to rebuilding superchargers for vechicles, energy well spent on technical hobbies.  </p>
+                            <a href="../src/personalP.html" class="btn btn-light text-decoration-none">More Info</a>
+                            <p class="text-black-50">Projects TBA</p>
+                        </div>
+                    </div> 
+                </div>
+<!-- These cards will change as more projects are available to showcase. Inline block shadow-->
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-auto d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="../assets/server-img.jpg" alt="Work" class="img-fluid border-radius p-4">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-dark">Work Projects</h3>
+                            <p class="card-text">Create, test, and integrate a VoIP client contact system using: Crestron SIP tools, Asterisk communication, FreePBX, Linux (CENTOS), and various free/open source SIP compatible smartphone applications.</p>
+                            <a href="../src/workP.html" class="btn btn-light text-decoration-none">More Info</a>
+                            <p class="text-black-50">Projects TBA</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>   
+        </section>
+    </main>
+
+<!--============================================================End Work Area============================================================ -->
+
+<!--============================================================Skills Area============================================================ -->
+<!-- Maybe create an interest or skills section. Maybe list programing languages, education experience, more work experience.
+
+        <section class="section-3 container-fluid p-0">
+
+        </section> -->
+<!--============================================================End Skills Area============================================================ -->
+
+<!--============================================================Footer & Links Area============================================================ -->
+    
+    <footer>
+        <div class="container-fluid p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-md-5">
+                    <h4 class="text-light">Disclaimer</h4>
+                    <p class="text-light">This website is for educational purposes only,<br> and will be continuously updated.</p>
+                    <p class="pt-4 text-light">Copyright &copy 2021 |
+                        <span>Kit Long</span>
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-sm-12">
+                    <h4 class="text-light">More Info</h4>
+                    <p class="text-light">Social</p>
+                    <div class="column">
+                        <i class="fa fa-github"></i>
+                        <i class="fa fa-linkedin"></i>
+                    <p class="text-light">Hosted with ❤ by GitHub</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="text-light">Contact</h4>
+                    <p class="text-light">Email</p>
+                    <p class="pt-4 text-light">
+                        <a id="anchor-contact"><span>KitLongEmail@email</span></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!--============================================================End Footer & Links Area======================================================= -->
+    
+<!--Linking javascript if needed later -->
+
+</body>
+</html>

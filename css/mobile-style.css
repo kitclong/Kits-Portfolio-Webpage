@@ -1,0 +1,43 @@
+/* This creates a separate style for easier responsive edits at various screen sizes */
+/* NEED TO REVISIT AND MAKE RESPONSIVE */
+@media only screen and(max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .work {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+
+/* NEED TO INSPECT TO CORRECT NON RESPONSIVE PAGE */
+
+/* @media only screen and(max-width: 375px) {
+    .section-1 .row .col-md-6 .panel {
+        margin-left: +25vmin;
+    }
+
+    .section-2 .work {
+        margin-right: +14vmin;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    .section-2 .card {
+        width: 18rem;
+    }
+} */
