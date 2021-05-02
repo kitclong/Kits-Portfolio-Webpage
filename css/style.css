@@ -39,6 +39,14 @@ header {
     background: var(--bggradient);
 }
 
+hr.rounded {
+    border-top: 6px solid var(--light-black);
+    max-width: 35%;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /* ==============================================Nav Area========================================= */
 
 header .nav-item:last-child {
@@ -245,6 +253,7 @@ footer .column i+i {
 /* ==============================================End Footer Section======================================= */
 
 /* ==============================================Projects page======================================= */
+
 
 .image-parent {
     max-width: 300px;
